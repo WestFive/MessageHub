@@ -73,17 +73,13 @@ namespace MessageHub.signalr
         /// <summary>
         /// 车道信息列表。
         /// </summary>
-
-
         public static ConcurrentDictionary<int, Pf_Message_lane_Object> laneList = new ConcurrentDictionary<int, Pf_Message_lane_Object>();
-
         /// <summary>
         /// 作业信息列表
         /// </summary>
         //public static List<Pf_Messge_Queue_Object> QueueList = new List<Pf_Messge_Queue_Object>();
-
-        public static ConcurrentDictionary<DateTime, Pf_Messge_Queue_Object> QueueList = new ConcurrentDictionary<DateTime, Pf_Messge_Queue_Object>();
-
+        public static ConcurrentDictionary<int, Pf_Messge_Queue_Object> QueueList = new ConcurrentDictionary<int, Pf_Messge_Queue_Object>();
+        public static int queue_number = 1;
         /// <summary>
         /// 会话信息列表。
         /// </summary>
@@ -255,13 +251,22 @@ namespace MessageHub.signalr
                                 case "create":
                                     if (QueueList.Count(x => x.Value.queue_id == queuecontent.queue_id) == 0)//没有这个元素时才能创建
                                     {
-                                        QueueList.TryAdd(Convert.ToDateTime(queuecontent.create_time), queuecontent);
+                                        if(queue_number==65534)
+                                        {
+                                            queue_number = 1;
+                                            _logger.LogWarning("服务已处理了65535票作业，计数归零");
+                                        }
+                                        queuecontent.create_time = DateTime.Now.ToString();
+                                        QueueList.TryAdd(queue_number++, queuecontent);
+                                        _logger.LogWarning("服务已处理了" + queue_number + "条作业");
+                                        
                                     }
                                     break;
                                 case "update":
                                     if (QueueList.Count(x => x.Value.queue_id == queuecontent.queue_id) > 0)
                                     {
                                         QueueList[QueueList.First(x => x.Value.queue_id == queuecontent.queue_id).Key] = queuecontent;
+                                     
                                     }
                                     break;
                                 case "delete":
@@ -272,7 +277,7 @@ namespace MessageHub.signalr
                                     }
                                     break;
                             }
-                            QueueList.OrderBy(x => x.Key <= DateTime.Now);
+                            
                         }
                         break;
                 }
