@@ -1,0 +1,983 @@
+2017-04-12 11:05:16.1519|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-04-12 11:05:16.3855|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-04-12 11:05:24.0832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" started. 
+2017-04-12 11:05:24.0862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" started. 
+2017-04-12 11:05:24.0862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" started. 
+2017-04-12 11:05:24.0862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" started. 
+2017-04-12 11:05:24.1112|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" started. 
+2017-04-12 11:05:24.1931|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" started. 
+2017-04-12 11:05:24.2462|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger   
+2017-04-12 11:05:24.3505|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger does not match a supported file type 
+2017-04-12 11:05:24.5842|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:24.6118|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:24.6178|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:24.6178|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:24.6178|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:24.6178|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:24.6861|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:24.6991|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 514.9427ms 301  
+2017-04-12 11:05:24.7237|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/   
+2017-04-12 11:05:24.7272|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/ does not match a supported file type 
+2017-04-12 11:05:24.7272|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:24.7272|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:24.7272|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:24.7272|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:24.7433|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:24.7433|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:24.7614|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'N/A' 
+2017-04-12 11:05:24.7874|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:24.8797|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/reset.css   
+2017-04-12 11:05:24.8927|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 70.9559ms 200 text/html 
+2017-04-12 11:05:24.9152|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/object-assign-pollyfill.js   
+2017-04-12 11:05:24.9669|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.slideto.min.js   
+2017-04-12 11:05:24.9899|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/object-assign-pollyfill.js does not match an existing file 
+2017-04-12 11:05:25.0175|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/typography.css   
+2017-04-12 11:05:25.0321|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.slideto.min.js does not match an existing file 
+2017-04-12 11:05:25.0531|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/screen.css   
+2017-04-12 11:05:25.0722|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/screen.css does not match an existing file 
+2017-04-12 11:05:25.0722|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/reset.css does not match an existing file 
+2017-04-12 11:05:25.0722|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.0902|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/typography.css does not match an existing file 
+2017-04-12 11:05:25.0902|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.0902|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.1253|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.1724|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.1474|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.1825|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.2131|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.2131|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.2296|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.2296|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.2416|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.2657|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.2978|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.3108|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.3108|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.3239|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.3549|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.3239|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.3680|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.4071|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.4402|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.4592|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.4823|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.5189|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.5490|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.5490|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A' 
+2017-04-12 11:05:25.5761|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A' 
+2017-04-12 11:05:25.5761|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:05:25.6042|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:25.6042|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:05:25.6553|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/typography.css'. Physical path: 'N/A' 
+2017-04-12 11:05:25.6553|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 756.1158ms 200 application/javascript 
+2017-04-12 11:05:25.7064|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery-1.8.0.min.js   
+2017-04-12 11:05:25.7405|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 807.7748ms 200 application/javascript 
+2017-04-12 11:05:25.7546|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.7546|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:25.7847|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/screen.css'. Physical path: 'N/A' 
+2017-04-12 11:05:25.8157|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.8714|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery-1.8.0.min.js does not match an existing file 
+2017-04-12 11:05:25.8714|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.wiggle.min.js   
+2017-04-12 11:05:25.8995|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:25.9276|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.wiggle.min.js does not match an existing file 
+2017-04-12 11:05:25.9456|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" completed keep alive response. 
+2017-04-12 11:05:25.9456|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:25.9878|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:26.0482|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 818.2574ms 200 text/css 
+2017-04-12 11:05:26.0617|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:26.1008|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1150.0265ms 200 text/css 
+2017-04-12 11:05:26.1179|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:26.1179|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:26.1444|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:26.1620|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:26.1720|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:26.2161|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jquery.ba-bbq.min.js   
+2017-04-12 11:05:26.2332|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:26.2683|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:26.2753|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:26.2753|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/reset.css'. Physical path: 'N/A' 
+2017-04-12 11:05:26.3104|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jquery.ba-bbq.min.js does not match an existing file 
+2017-04-12 11:05:26.3324|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A' 
+2017-04-12 11:05:26.3385|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:05:26.3385|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:26.2903|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/handlebars-4.0.5.js   
+2017-04-12 11:05:26.3786|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:26.4076|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/handlebars-4.0.5.js does not match an existing file 
+2017-04-12 11:05:26.4247|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:26.4357|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:26.4357|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" completed keep alive response. 
+2017-04-12 11:05:26.4788|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:26.5099|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/lodash.min.js   
+2017-04-12 11:05:26.5365|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:26.5510|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/lodash.min.js does not match an existing file 
+2017-04-12 11:05:26.6032|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 859.78ms 200 application/javascript 
+2017-04-12 11:05:26.6252|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:26.6508|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A' 
+2017-04-12 11:05:26.7140|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:26.7365|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:26.8187|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:05:26.8684|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:26.8684|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:26.8924|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.min.js   
+2017-04-12 11:05:26.9140|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1538.01ms 200 text/css 
+2017-04-12 11:05:26.9391|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1137.3176ms 200 application/javascript 
+2017-04-12 11:05:26.9666|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:26.9912|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/swagger-ui.min.js does not match an existing file 
+2017-04-12 11:05:27.0002|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.0283|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A' 
+2017-04-12 11:05:27.0383|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack.js   
+2017-04-12 11:05:27.0383|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.0383|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/highlight.9.1.0.pack.js does not match an existing file 
+2017-04-12 11:05:27.0619|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.0865|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:05:27.0865|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.1175|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:27.1566|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.1764|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1224.7239ms 200 application/javascript 
+2017-04-12 11:05:27.1824|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.1995|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:27.2185|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:27.2295|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.2571|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/backbone-min.js   
+2017-04-12 11:05:27.2571|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:27.2757|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:27.2757|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.3067|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.3218|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/backbone-min.js does not match an existing file 
+2017-04-12 11:05:27.3218|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.3438|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.3559|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.3559|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:27.3890|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.4130|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/highlight.9.1.0.pack_extended.js   
+2017-04-12 11:05:27.4291|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A' 
+2017-04-12 11:05:27.4291|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.4577|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:05:27.5023|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 480.9984ms 200 application/javascript 
+2017-04-12 11:05:27.5263|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/highlight.9.1.0.pack_extended.js does not match an existing file 
+2017-04-12 11:05:27.5504|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:27.5544|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A' 
+2017-04-12 11:05:27.5544|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A' 
+2017-04-12 11:05:27.6146|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.6437|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.6146|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A' 
+2017-04-12 11:05:27.6787|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.7163|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:27.7339|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:27.7600|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" completed keep alive response. 
+2017-04-12 11:05:27.8357|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/jsoneditor.min.js   
+2017-04-12 11:05:27.9069|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" completed keep alive response. 
+2017-04-12 11:05:27.9224|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:27.9755|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/jsoneditor.min.js does not match an existing file 
+2017-04-12 11:05:27.9921|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:27.9921|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1017.4269ms 200 application/javascript 
+2017-04-12 11:05:28.0111|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1676.5771ms 200 application/javascript 
+2017-04-12 11:05:28.0111|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.0482|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:28.0482|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.0603|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.0808|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.0959|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/swagger-oauth.js   
+2017-04-12 11:05:28.1019|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/css/print.css   
+2017-04-12 11:05:28.1019|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.1169|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/swagger-oauth.js does not match an existing file 
+2017-04-12 11:05:28.1169|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1628.9397ms 200 application/javascript 
+2017-04-12 11:05:28.1320|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.1320|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:28.1711|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.1791|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/css/print.css does not match an existing file 
+2017-04-12 11:05:28.1791|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:28.1971|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:28.1971|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.2553|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A' 
+2017-04-12 11:05:28.2593|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A' 
+2017-04-12 11:05:28.2814|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:05:28.3145|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:05:28.2904|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A' 
+2017-04-12 11:05:28.2904|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.3455|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/lib/marked.js   
+2017-04-12 11:05:28.3571|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.3756|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.3997|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.4258|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:05:28.4814|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:28.4984|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/lib/marked.js does not match an existing file 
+2017-04-12 11:05:28.5305|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:28.5611|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.5611|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.5867|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1167.0915ms 200 application/javascript 
+2017-04-12 11:05:28.6163|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.6163|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:28.6163|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 800.2241ms 200 application/javascript 
+2017-04-12 11:05:28.6689|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.6689|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.6980|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1125.4614ms 200 application/javascript 
+2017-04-12 11:05:28.7321|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.7727|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:28.7978|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/print.css'. Physical path: 'N/A' 
+2017-04-12 11:05:28.7978|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:28.8610|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:28.8850|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" completed keep alive response. 
+2017-04-12 11:05:28.8610|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A' 
+2017-04-12 11:05:28.9201|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" completed keep alive response. 
+2017-04-12 11:05:28.9522|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A' 
+2017-04-12 11:05:29.0505|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:29.1307|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 846.9069ms 200 text/css 
+2017-04-12 11:05:29.1788|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 884.5854ms 200 application/javascript 
+2017-04-12 11:05:29.1788|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/logo_small.png   
+2017-04-12 11:05:29.1788|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/logo_small.png does not match an existing file 
+2017-04-12 11:05:29.1788|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 895.5687ms 200 application/javascript 
+2017-04-12 11:05:29.2139|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:29.2430|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:29.2430|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json   
+2017-04-12 11:05:29.2691|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:29.2796|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/v1/swagger.json does not match an existing file 
+2017-04-12 11:05:29.3172|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:29.3473|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:29.3754|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:29.4045|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:29.4315|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:29.4546|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:29.5044|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:29.5104|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A' 
+2017-04-12 11:05:29.5355|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:29.5606|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" completed keep alive response. 
+2017-04-12 11:05:29.5881|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:29.6042|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 438.3054ms 200 image/png 
+2017-04-12 11:05:29.6193|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/favicon-16x16.png   
+2017-04-12 11:05:29.6193|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/favicon-16x16.png does not match an existing file 
+2017-04-12 11:05:29.6193|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:29.6333|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:29.6333|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:29.6333|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:29.6333|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:29.6503|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:29.6664|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A' 
+2017-04-12 11:05:29.6664|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" completed keep alive response. 
+2017-04-12 11:05:29.7170|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 64.8927ms 200 image/png 
+2017-04-12 11:05:29.8454|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:29.8524|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 610.3078ms 200 application/json 
+2017-04-12 11:05:31.5858|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/swagger/images/throbber.gif   
+2017-04-12 11:05:31.5858|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /swagger/images/throbber.gif does not match an existing file 
+2017-04-12 11:05:31.5858|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:31.6019|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:31.6019|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:31.6019|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:31.6184|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:31.6184|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:31.6395|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A' 
+2017-04-12 11:05:31.6475|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:31.6475|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 231.1261ms 200 image/gif 
+2017-04-12 11:05:37.6457|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-04-12 11:05:37.6558|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-04-12 11:05:37.6558|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:37.7410|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Index (MessageHub) 
+2017-04-12 11:05:37.8072|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Index (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:05:37.8072|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Index (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:05:38.0729|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-04-12 11:05:38.0959|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-04-12 11:05:38.4939|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 389.2343ms. 
+2017-04-12 11:05:38.5179|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-04-12 11:05:39.8278|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 1305.5133ms. 
+2017-04-12 11:05:39.8368|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/_ViewStart.cshtml' started. 
+2017-04-12 11:05:39.8368|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 4.0161ms. 
+2017-04-12 11:05:39.8518|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started. 
+2017-04-12 11:05:39.9952|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 139.8481ms. 
+2017-04-12 11:05:40.0193|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-04-12 11:05:40.0584|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-04-12 11:05:40.1376|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\平方科技\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-04-12 11:05:40.2103|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view '_Layout' in controller 'Home'. 
+2017-04-12 11:05:40.2103|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started. 
+2017-04-12 11:05:40.2579|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 40.2118ms. 
+2017-04-12 11:05:40.2579|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started. 
+2017-04-12 11:05:40.4374|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 171.7159ms. 
+2017-04-12 11:05:40.6505|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Index (MessageHub) in 2805.9989ms 
+2017-04-12 11:05:40.7232|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:40.7669|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css   
+2017-04-12 11:05:40.7759|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3088.9814ms 200 text/html; charset=utf-8 
+2017-04-12 11:05:40.8180|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:05:40.8260|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:05:40.8260|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'E:\厦门项目\MessageHub\MessageHub\wwwroot\lib\bootstrap\dist\css\bootstrap.css' 
+2017-04-12 11:05:40.8511|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Scripts/jquery.signalR-2.2.1.js   
+2017-04-12 11:05:40.8932|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Scripts/jquery.signalR-2.2.1.js does not match an existing file 
+2017-04-12 11:05:40.8982|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/css/site.css   
+2017-04-12 11:05:40.8982|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:40.9431|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js   
+2017-04-12 11:05:40.9571|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:41.0123|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:41.0664|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:05:41.0965|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\厦门项目\MessageHub\MessageHub\wwwroot\lib\jquery\dist\jquery.js' 
+2017-04-12 11:05:41.1241|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/css/site.css'. Physical path: 'E:\厦门项目\MessageHub\MessageHub\wwwroot\css\site.css' 
+2017-04-12 11:05:41.1607|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/js/site.js?v=EWaMeWsJBYWmL2g_KkgXZQ5nPe-a3Ichp0LEgzXczKo   
+2017-04-12 11:05:41.1647|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:05:41.1647|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:05:41.2384|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/js/site.js'. Physical path: 'E:\厦门项目\MessageHub\MessageHub\wwwroot\js\site.js' 
+2017-04-12 11:05:41.2910|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" completed keep alive response. 
+2017-04-12 11:05:41.3286|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" completed keep alive response. 
+2017-04-12 11:05:41.3382|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" completed keep alive response. 
+2017-04-12 11:05:41.3607|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 553.8576ms 200 application/javascript 
+2017-04-12 11:05:41.3903|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:05:41.3903|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 748.0297ms 200 text/css 
+2017-04-12 11:05:41.4043|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:05:41.4424|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-04-12 11:05:41.4535|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 839.684ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:05:41.5507|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 789.7429ms 200 text/css 
+2017-04-12 11:05:41.5994|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 321.4171ms 200 application/javascript 
+2017-04-12 11:05:41.6034|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:05:41.6536|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js   
+2017-04-12 11:05:41.6816|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1077.9339ms 404  
+2017-04-12 11:05:41.7067|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\厦门项目\MessageHub\MessageHub\wwwroot\lib\bootstrap\dist\js\bootstrap.js' 
+2017-04-12 11:05:41.7147|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:05:41.7258|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 89.4719ms 200 application/javascript 
+2017-04-12 11:05:52.4517|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:05:52.5034|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css.map'. Physical path: 'E:\厦门项目\MessageHub\MessageHub\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map' 
+2017-04-12 11:05:52.5370|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:05:52.5490|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 164.2053ms 200 text/plain 
+2017-04-12 11:06:01.7490|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-04-12 11:06:01.7490|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-04-12 11:06:01.7590|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:01.7590|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Index (MessageHub) 
+2017-04-12 11:06:01.7740|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Index (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:06:01.7740|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Index (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:06:01.7740|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-04-12 11:06:01.7891|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-04-12 11:06:01.7891|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-04-12 11:06:01.7891|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:06:01.8307|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Index (MessageHub) in 40.3693ms 
+2017-04-12 11:06:01.8482|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:06:01.9004|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:06:01.9004|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:06:01.9174|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:01.9174|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Scripts/jquery.signalR-2.2.1.js   
+2017-04-12 11:06:01.9330|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Scripts/jquery.signalR-2.2.1.js does not match an existing file 
+2017-04-12 11:06:01.9645|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 102.2151ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:06:01.9330|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 110.1107ms 200 text/html; charset=utf-8 
+2017-04-12 11:06:01.9645|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:02.0252|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:06:02.0518|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:06:02.0538|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:02.0538|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:06:02.0538|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:06:02.0809|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:06:02.0859|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-04-12 11:06:02.0859|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:02.1265|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:06:02.1621|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 280.0385ms 404  
+2017-04-12 11:06:02.2313|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:06:02.2458|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:06:02.3742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 251.1384ms 304 text/plain 
+2017-04-12 11:06:02.8813|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Home/Contact   
+2017-04-12 11:06:02.8863|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Home/Contact does not match a supported file type 
+2017-04-12 11:06:02.8863|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:02.8863|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Contact (MessageHub) 
+2017-04-12 11:06:02.9043|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Contact (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:06:02.9043|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Contact (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:06:02.9043|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Contact' in controller 'Home'. 
+2017-04-12 11:06:02.9163|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Contact.cshtml' started. 
+2017-04-12 11:06:02.9163|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Contact.cshtml' completed in 6.0589ms. 
+2017-04-12 11:06:02.9163|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Contact.cshtml' started. 
+2017-04-12 11:06:02.9965|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Contact.cshtml' completed in 63.9775ms. 
+2017-04-12 11:06:02.9965|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Contact' was found. 
+2017-04-12 11:06:03.0081|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Contact.cshtml. 
+2017-04-12 11:06:03.0081|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:06:03.0286|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Contact (MessageHub) in 121.3545ms 
+2017-04-12 11:06:03.0637|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:06:03.0747|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:06:03.0908|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:06:03.1053|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:03.1179|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 201.8597ms 200 text/html; charset=utf-8 
+2017-04-12 11:06:03.1369|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 79.5691ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:06:03.1860|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:06:03.2026|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:06:03.2111|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:06:03.2111|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:03.2302|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 58.6233ms 304 text/plain 
+2017-04-12 11:06:03.3936|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966363246 application/json; charset=UTF-8  
+2017-04-12 11:06:03.4177|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:06:03.5490|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\平方科技\AppData\Local\ASP.NET\DataProtection-Keys\key-49fa3186-d4f7-4f34-8a5c-1999161188c0.xml'. 
+2017-04-12 11:06:03.5671|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {49fa3186-d4f7-4f34-8a5c-1999161188c0}. 
+2017-04-12 11:06:03.5911|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with expiration date 2017-06-05 06:30:12Z as default key. 
+2017-04-12 11:06:03.6142|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-04-12 11:06:03.6418|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2017-04-12 11:06:03.6708|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2017-04-12 11:06:03.6884|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {49fa3186-d4f7-4f34-8a5c-1999161188c0} as the default key. 
+2017-04-12 11:06:03.7009|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:03.7295|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:03.7415|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 438.103ms 200 application/json; charset=UTF-8 
+2017-04-12 11:06:03.7415|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GM" started. 
+2017-04-12 11:06:03.7696|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMDIqmkoKQS8ma86LXNE6pETVRPNCDc0TURES%2FI6YO8Mm2wbo6iTSzK1UHJ%2FWnWNslnq24PFyUkKKoxpBQxJuPoOJIRZ9o5JFJmUdiuwS29rsZCRg1i0K7wVPKhhIOaf8tMHVt6vaiQKeggAcSpeVFlr&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=4   
+2017-04-12 11:06:03.7786|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:06:03.7937|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:03.9150|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection 6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4 is New. 
+2017-04-12 11:06:04.0012|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMDIqmkoKQS8ma86LXNE6pETVRPNCDc0TURES%2FI6YO8Mm2wbo6iTSzK1UHJ%2FWnWNslnq24PFyUkKKoxpBQxJuPoOJIRZ9o5JFJmUdiuwS29rsZCRg1i0K7wVPKhhIOaf8tMHVt6vaiQKeggAcSpeVFlr&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966363992 application/json; charset=UTF-8  
+2017-04-12 11:06:04.0012|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:06:04.0113|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:04.0313|MessageHub.signalr.MessageHub|WARN|连接的对象是匿名者 
+2017-04-12 11:06:04.0484|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:06:04连接了 
+2017-04-12 11:06:04.2826|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:04.2891|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 289.5948ms 200 application/json; charset=UTF-8 
+2017-04-12 11:06:05.7871|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-04-12 11:06:05.7921|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-04-12 11:06:05.7921|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:05.8042|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Index (MessageHub) 
+2017-04-12 11:06:05.8042|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Index (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:06:05.8042|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Index (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:06:05.8232|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-04-12 11:06:05.8232|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-04-12 11:06:05.8363|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-04-12 11:06:05.8363|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:06:05.8764|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Index (MessageHub) in 36.4546ms 
+2017-04-12 11:06:05.8864|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:05.9185|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMDIqmkoKQS8ma86LXNE6pETVRPNCDc0TURES%2FI6YO8Mm2wbo6iTSzK1UHJ%2FWnWNslnq24PFyUkKKoxpBQxJuPoOJIRZ9o5JFJmUdiuwS29rsZCRg1i0K7wVPKhhIOaf8tMHVt6vaiQKeggAcSpeVFlr&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:06:05.9430|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:06:05.9451|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 108.7566ms 200 text/html; charset=utf-8 
+2017-04-12 11:06:05.9796|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4) 
+2017-04-12 11:06:05.9987|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2233.2274ms 101  
+2017-04-12 11:06:05.9987|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:06.2624|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GM" disconnecting. 
+2017-04-12 11:06:06.3738|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:06:06.4174|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:06:06.4350|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GM" sending FIN. 
+2017-04-12 11:06:06.4515|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:06:06.4926|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 525.6011ms 200  
+2017-04-12 11:06:06.4926|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:06.5447|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:06:06.5784|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4) 
+2017-04-12 11:06:06.4846|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GM" sent FIN with status "0". 
+2017-04-12 11:06:06.6767|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GM" stopped. 
+2017-04-12 11:06:06.7168|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Scripts/jquery.signalR-2.2.1.js   
+2017-04-12 11:06:06.7429|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:06:06.7429|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection 6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4 
+2017-04-12 11:06:06.7719|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Scripts/jquery.signalR-2.2.1.js does not match an existing file 
+2017-04-12 11:06:06.7945|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:06:06.7945|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:06.8151|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:06.8371|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 317.3583ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:06:06.8371|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4) 
+2017-04-12 11:06:06.8371|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 482.4481ms 304 text/plain 
+2017-04-12 11:06:06.8582|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:06:06.8582|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:06:06.8582|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:06.8702|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:06:06.8702|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4) 
+2017-04-12 11:06:06.8702|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:06:06.9239|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-04-12 11:06:06.9289|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4) 
+2017-04-12 11:06:06.9289|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:06:07.0032|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 422.4626ms 404  
+2017-04-12 11:06:08.4186|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Home/Contact   
+2017-04-12 11:06:08.4186|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Home/Contact does not match a supported file type 
+2017-04-12 11:06:08.4326|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:08.4326|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Contact (MessageHub) 
+2017-04-12 11:06:08.4507|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Contact (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:06:08.4507|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Contact (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:06:08.4617|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Contact' in controller 'Home'. 
+2017-04-12 11:06:08.4617|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Contact' was found. 
+2017-04-12 11:06:08.4757|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Contact.cshtml. 
+2017-04-12 11:06:08.4757|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:06:08.9213|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Contact (MessageHub) in 60.3056ms 
+2017-04-12 11:06:08.9213|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:06:08.9439|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:06:09.0000|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:06:09.0000|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:06:09.0221|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:09.0482|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:06:09.1414|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:06:09.2071|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 611.8268ms 200 text/html; charset=utf-8 
+2017-04-12 11:06:09.2241|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:09.2362|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 402.9322ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:06:09.2610|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 447.8602ms 304 text/plain 
+2017-04-12 11:06:09.2941|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966369065 application/json; charset=UTF-8  
+2017-04-12 11:06:09.2941|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:06:09.2941|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:09.3091|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:09.3091|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 47.7885ms 200 application/json; charset=UTF-8 
+2017-04-12 11:06:09.3272|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GN" started. 
+2017-04-12 11:06:09.3362|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAlahRJN52k3X0Pz3Kdm2fLh6MrGdslXNQIhQ4OTIImewlv0Kd2yYPjOp10OcJQiz%2Fy85G%2BeHYzk6YgGOseoJy20bqcmOIgtsapOgGBnGKG0EnWSoe0G0UHu4UV0qOSJJItAGo5lKiTQdVY3kAXMTtL&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=9   
+2017-04-12 11:06:09.3362|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:06:09.3362|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:09.3517|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection cdb1e649-5d4b-4f56-ad2c-50f989a02cf4 is New. 
+2017-04-12 11:06:09.3517|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAlahRJN52k3X0Pz3Kdm2fLh6MrGdslXNQIhQ4OTIImewlv0Kd2yYPjOp10OcJQiz%2Fy85G%2BeHYzk6YgGOseoJy20bqcmOIgtsapOgGBnGKG0EnWSoe0G0UHu4UV0qOSJJItAGo5lKiTQdVY3kAXMTtL&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966369354 application/json; charset=UTF-8  
+2017-04-12 11:06:09.3517|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:06:09.3701|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:09.3701|MessageHub.signalr.MessageHub|WARN|连接的对象是匿名者 
+2017-04-12 11:06:09.3881|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:06:09连接了 
+2017-04-12 11:06:09.3982|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:09.4202|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 43.5944ms 200 application/json; charset=UTF-8 
+2017-04-12 11:06:11.5302|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Home/Queue   
+2017-04-12 11:06:11.5302|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Home/Queue does not match a supported file type 
+2017-04-12 11:06:11.5433|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:11.5433|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Queue (MessageHub) 
+2017-04-12 11:06:11.5573|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Queue (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:06:11.5573|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Queue (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:06:11.5573|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Queue' in controller 'Home'. 
+2017-04-12 11:06:11.5703|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Queue.cshtml' started. 
+2017-04-12 11:06:11.5703|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Queue.cshtml' completed in 7.3527ms. 
+2017-04-12 11:06:11.5864|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Queue.cshtml' started. 
+2017-04-12 11:06:11.6395|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Queue.cshtml' completed in 49.4346ms. 
+2017-04-12 11:06:11.6395|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Queue' was found. 
+2017-04-12 11:06:11.6521|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Queue.cshtml. 
+2017-04-12 11:06:11.6521|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:06:11.6964|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Queue (MessageHub) in 110.6853ms 
+2017-04-12 11:06:11.7195|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:11.7195|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAlahRJN52k3X0Pz3Kdm2fLh6MrGdslXNQIhQ4OTIImewlv0Kd2yYPjOp10OcJQiz%2Fy85G%2BeHYzk6YgGOseoJy20bqcmOIgtsapOgGBnGKG0EnWSoe0G0UHu4UV0qOSJJItAGo5lKiTQdVY3kAXMTtL&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:06:11.7295|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 205.606ms 200 text/html; charset=utf-8 
+2017-04-12 11:06:11.7545|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:06:11.7636|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:11.8378|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:11.9360|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(cdb1e649-5d4b-4f56-ad2c-50f989a02cf4) 
+2017-04-12 11:06:11.9721|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(cdb1e649-5d4b-4f56-ad2c-50f989a02cf4) 
+2017-04-12 11:06:12.0218|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 177.8255ms 200  
+2017-04-12 11:06:12.0629|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:06:12.1065|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:06:12.1065|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:06:12.1772|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:12.3311|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:06:12.3682|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:06:12.3943|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:12.4183|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2608.1944ms 101  
+2017-04-12 11:06:12.4183|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection cdb1e649-5d4b-4f56-ad2c-50f989a02cf4 
+2017-04-12 11:06:12.4434|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GN" disconnecting. 
+2017-04-12 11:06:12.4569|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GN" sending FIN. 
+2017-04-12 11:06:12.4674|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 144.9215ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:06:12.4674|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GN" sent FIN with status "0". 
+2017-04-12 11:06:12.4865|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GN" stopped. 
+2017-04-12 11:06:12.5111|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(cdb1e649-5d4b-4f56-ad2c-50f989a02cf4) 
+2017-04-12 11:06:12.5111|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966372189 application/json; charset=UTF-8  
+2017-04-12 11:06:12.4865|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 481.5989ms 304 text/plain 
+2017-04-12 11:06:12.5462|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:06:12.5723|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(cdb1e649-5d4b-4f56-ad2c-50f989a02cf4) 
+2017-04-12 11:06:12.5978|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:12.6034|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (cdb1e649-5d4b-4f56-ad2c-50f989a02cf4) 
+2017-04-12 11:06:12.6034|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:12.6164|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 130.4556ms 200 application/json; charset=UTF-8 
+2017-04-12 11:06:12.6164|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GO" started. 
+2017-04-12 11:06:12.6565|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAcQs9rnIWD7%2FCLEVZawVRVcqz%2FduCNnq%2FpSKCEj%2B28Z7MMoqurF0D9Sxh8Zdmydn1jXP9wDD%2Bf5K2tq0GZlOhimOLgZ5rgW2LJ%2F2QJ7m4h0rqwy%2Fv1193g20ED%2BUOKTkcz0hw%2Fvn8z9Wu4QPohIMsQ&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=10   
+2017-04-12 11:06:12.6685|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:06:12.6685|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:12.7197|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection be0a8cc0-c688-4b48-a47f-9c57310810d9 is New. 
+2017-04-12 11:06:12.7357|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAcQs9rnIWD7%2FCLEVZawVRVcqz%2FduCNnq%2FpSKCEj%2B28Z7MMoqurF0D9Sxh8Zdmydn1jXP9wDD%2Bf5K2tq0GZlOhimOLgZ5rgW2LJ%2F2QJ7m4h0rqwy%2Fv1193g20ED%2BUOKTkcz0hw%2Fvn8z9Wu4QPohIMsQ&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966372723 application/json; charset=UTF-8  
+2017-04-12 11:06:12.7357|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:06:12.7437|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:12.7437|MessageHub.signalr.MessageHub|WARN|连接的对象是匿名者 
+2017-04-12 11:06:12.7658|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:06:12连接了 
+2017-04-12 11:06:12.7748|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:12.7748|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 51.0674ms 200 application/json; charset=UTF-8 
+2017-04-12 11:06:13.8225|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|DEBUG|KeepAlive(be0a8cc0-c688-4b48-a47f-9c57310810d9) 
+2017-04-12 11:06:14.6952|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-04-12 11:06:14.6952|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-04-12 11:06:14.7117|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:14.7117|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Index (MessageHub) 
+2017-04-12 11:06:14.7318|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Index (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:06:14.7318|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Index (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:06:14.7448|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-04-12 11:06:14.7448|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-04-12 11:06:14.7598|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-04-12 11:06:14.7598|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:06:14.8451|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Index (MessageHub) in 45.3661ms 
+2017-04-12 11:06:14.8561|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:14.8887|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAcQs9rnIWD7%2FCLEVZawVRVcqz%2FduCNnq%2FpSKCEj%2B28Z7MMoqurF0D9Sxh8Zdmydn1jXP9wDD%2Bf5K2tq0GZlOhimOLgZ5rgW2LJ%2F2QJ7m4h0rqwy%2Fv1193g20ED%2BUOKTkcz0hw%2Fvn8z9Wu4QPohIMsQ&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:06:14.8887|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:06:14.9042|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:06:14.9584|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:15.0466|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(be0a8cc0-c688-4b48-a47f-9c57310810d9) 
+2017-04-12 11:06:15.0832|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 217.5492ms 200 text/html; charset=utf-8 
+2017-04-12 11:06:15.1626|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(be0a8cc0-c688-4b48-a47f-9c57310810d9) 
+2017-04-12 11:06:15.1726|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:06:15.2107|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 231.7876ms 200  
+2017-04-12 11:06:15.2669|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2405.7646ms 101  
+2017-04-12 11:06:15.2930|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GO" disconnecting. 
+2017-04-12 11:06:15.3050|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GO" sending FIN. 
+2017-04-12 11:06:15.3050|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Scripts/jquery.signalR-2.2.1.js   
+2017-04-12 11:06:15.3416|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GO" sent FIN with status "0". 
+2017-04-12 11:06:15.3729|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:06:15.3416|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Scripts/jquery.signalR-2.2.1.js does not match an existing file 
+2017-04-12 11:06:15.3979|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:06:15.4250|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:06:15.4531|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:15.4711|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:06:15.4962|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:06:15.5489|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:06:15.4962|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GO" stopped. 
+2017-04-12 11:06:15.5323|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection be0a8cc0-c688-4b48-a47f-9c57310810d9 
+2017-04-12 11:06:15.5954|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:06:15.5649|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GJ" completed keep alive response. 
+2017-04-12 11:06:15.6496|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:06:15.6781|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(be0a8cc0-c688-4b48-a47f-9c57310810d9) 
+2017-04-12 11:06:15.6997|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 399.4037ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:06:15.7228|Microsoft.AspNetCore.Mvc.Internal.MvcRouteHandler|DEBUG|No actions matched the current request 
+2017-04-12 11:06:15.7518|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 512.1543ms 304 text/plain 
+2017-04-12 11:06:15.7649|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-04-12 11:06:15.7764|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path  does not match the path filter 
+2017-04-12 11:06:15.8100|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(be0a8cc0-c688-4b48-a47f-9c57310810d9) 
+2017-04-12 11:06:16.0552|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:06:16.0552|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (be0a8cc0-c688-4b48-a47f-9c57310810d9) 
+2017-04-12 11:06:16.0552|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 820.2226ms 404  
+2017-04-12 11:06:16.2648|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(c-6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4) 
+2017-04-12 11:06:16.2733|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(hc-MessageHub.6e69ddc4-aa4b-4e59-9d9d-477c430a1ef4) 
+2017-04-12 11:06:21.2660|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(c-cdb1e649-5d4b-4f56-ad2c-50f989a02cf4) 
+2017-04-12 11:06:21.2730|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(c-be0a8cc0-c688-4b48-a47f-9c57310810d9) 
+2017-04-12 11:06:21.2730|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(hc-MessageHub.cdb1e649-5d4b-4f56-ad2c-50f989a02cf4) 
+2017-04-12 11:06:21.2730|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(hc-MessageHub.be0a8cc0-c688-4b48-a47f-9c57310810d9) 
+2017-04-12 11:06:21.2960|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(h-MessageHub) 
+2017-04-12 11:07:31.3723|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-04-12 11:07:31.3939|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-04-12 11:07:31.4054|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:07:31.4054|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Index (MessageHub) 
+2017-04-12 11:07:31.4185|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Index (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:07:31.4185|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Index (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:07:31.4185|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache miss for view 'Index' in controller 'Home'. 
+2017-04-12 11:07:31.4335|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-04-12 11:07:31.4465|Microsoft.AspNetCore.Mvc.Razor.Internal.RazorCompilationService|DEBUG|Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 9.9961ms. 
+2017-04-12 11:07:31.4465|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started. 
+2017-04-12 11:07:31.4957|Microsoft.AspNetCore.Mvc.Razor.Internal.DefaultRoslynCompilationService|DEBUG|Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 40.6087ms. 
+2017-04-12 11:07:31.4957|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-04-12 11:07:31.4957|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-04-12 11:07:31.5164|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:07:31.5515|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Index (MessageHub) in 106.6303ms 
+2017-04-12 11:07:31.5615|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:31.5931|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:07:31.5931|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 241.4511ms 200 text/html; charset=utf-8 
+2017-04-12 11:07:31.6207|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:07:31.6548|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:31.6548|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:07:31.7059|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 130.1855ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:07:31.8027|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:07:31.8328|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:07:31.8448|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:31.8824|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&Type=Broswer&Name=Broswer&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966451718 application/json; charset=UTF-8  
+2017-04-12 11:07:31.8824|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:07:31.9260|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:31.9937|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:32.0233|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GP" started. 
+2017-04-12 11:07:32.0930|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 200.769ms 304 text/plain 
+2017-04-12 11:07:32.0930|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 218.0801ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:32.1025|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&Type=Broswer&Name=Broswer&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMBQh9pMPJCeJFBZQDPDkk0th9%2F9PYiH%2FplxAsOEU0U6nS4sncAL0UHGr7xEtPvqFL%2Ba4MvhJy5Wn7g3hiA5Yc0TdY7uC%2F%2FUh57X2JZcWUwMOG2KoI0Q3CCL9Jf%2FOwcIShpn0pYiufzvB0e%2B9qlBn%2Buu&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=1   
+2017-04-12 11:07:32.1296|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:07:32.1326|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:32.1326|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection 3964d2b1-869b-407a-a3bf-948c22701cb4 is New. 
+2017-04-12 11:07:32.1537|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&Type=Broswer&Name=Broswer&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMBQh9pMPJCeJFBZQDPDkk0th9%2F9PYiH%2FplxAsOEU0U6nS4sncAL0UHGr7xEtPvqFL%2Ba4MvhJy5Wn7g3hiA5Yc0TdY7uC%2F%2FUh57X2JZcWUwMOG2KoI0Q3CCL9Jf%2FOwcIShpn0pYiufzvB0e%2B9qlBn%2Buu&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966452141 application/json; charset=UTF-8  
+2017-04-12 11:07:32.1537|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:07:32.1537|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:32.1677|MessageHub.signalr.MessageHub|WARN|连接的对象是浏览器 
+2017-04-12 11:07:32.1887|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:07:32BroswerBroswer连接了 
+2017-04-12 11:07:32.2320|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:32.2320|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 90.7452ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:33.8912|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|DEBUG|KeepAlive(3964d2b1-869b-407a-a3bf-948c22701cb4) 
+2017-04-12 11:07:34.3998|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Home/Contact   
+2017-04-12 11:07:34.4139|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Home/Contact does not match a supported file type 
+2017-04-12 11:07:34.4139|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:07:34.4289|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Contact (MessageHub) 
+2017-04-12 11:07:34.4289|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Contact (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:07:34.4289|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Contact (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:07:34.4450|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Contact' in controller 'Home'. 
+2017-04-12 11:07:34.4450|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Contact' was found. 
+2017-04-12 11:07:34.4450|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Contact.cshtml. 
+2017-04-12 11:07:34.4600|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:07:34.4760|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Contact (MessageHub) in 30.7847ms 
+2017-04-12 11:07:34.4760|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:34.4951|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 95.9656ms 200 text/html; charset=utf-8 
+2017-04-12 11:07:34.5292|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(3964d2b1-869b-407a-a3bf-948c22701cb4) 
+2017-04-12 11:07:34.5382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&Type=Broswer&Name=Broswer&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMBQh9pMPJCeJFBZQDPDkk0th9%2F9PYiH%2FplxAsOEU0U6nS4sncAL0UHGr7xEtPvqFL%2Ba4MvhJy5Wn7g3hiA5Yc0TdY7uC%2F%2FUh57X2JZcWUwMOG2KoI0Q3CCL9Jf%2FOwcIShpn0pYiufzvB0e%2B9qlBn%2Buu&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:07:34.5382|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:07:34.5382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2486.6018ms 101  
+2017-04-12 11:07:34.5382|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:34.5573|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GP" disconnecting. 
+2017-04-12 11:07:34.6084|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GP" sending FIN. 
+2017-04-12 11:07:34.6084|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GP" sent FIN with status "0". 
+2017-04-12 11:07:34.6174|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:34.6425|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GP" stopped. 
+2017-04-12 11:07:34.6585|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(3964d2b1-869b-407a-a3bf-948c22701cb4) 
+2017-04-12 11:07:34.6585|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 123.6238ms 200  
+2017-04-12 11:07:34.6756|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection 3964d2b1-869b-407a-a3bf-948c22701cb4 
+2017-04-12 11:07:34.6826|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:07:34.6826|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:07:34.6826|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(3964d2b1-869b-407a-a3bf-948c22701cb4) 
+2017-04-12 11:07:34.7217|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:34.7217|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(3964d2b1-869b-407a-a3bf-948c22701cb4) 
+2017-04-12 11:07:35.0857|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 50.4172ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:07:35.0857|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (3964d2b1-869b-407a-a3bf-948c22701cb4) 
+2017-04-12 11:07:35.1133|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966454778 application/json; charset=UTF-8  
+2017-04-12 11:07:35.1183|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:07:35.1183|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:07:35.1478|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:35.1478|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:35.1694|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GQ" started. 
+2017-04-12 11:07:35.1980|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:07:35.1980|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:07:35.2150|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 217.8889ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:35.2732|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMBDECYkKrPwMOjnvoPfRWnGWEV7JcrOT2518cOQyL6ORY3ZvYtF4JCASqIrlR7O6yZ0CznSjhFPi9K6OP39J5MObkx834BSKzBdUGuEmLdE04lse0B7yRmBxjjVeFCN9EBinWAA9cHY1YDfk0pHZH5v&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=9   
+2017-04-12 11:07:35.2902|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:07:35.2902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:35.3183|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:35.3870|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 198.9699ms 304 text/plain 
+2017-04-12 11:07:35.4251|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection c247ab71-4b92-471d-9964-206a1b01590f is New. 
+2017-04-12 11:07:35.4376|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMBDECYkKrPwMOjnvoPfRWnGWEV7JcrOT2518cOQyL6ORY3ZvYtF4JCASqIrlR7O6yZ0CznSjhFPi9K6OP39J5MObkx834BSKzBdUGuEmLdE04lse0B7yRmBxjjVeFCN9EBinWAA9cHY1YDfk0pHZH5v&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966455428 application/json; charset=UTF-8  
+2017-04-12 11:07:35.4447|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:07:35.4447|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:35.4447|MessageHub.signalr.MessageHub|WARN|连接的对象是匿名者 
+2017-04-12 11:07:35.4777|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:07:35连接了 
+2017-04-12 11:07:35.4918|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:35.5239|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 71.3768ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:36.2211|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Home/Queue   
+2017-04-12 11:07:36.2262|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Home/Queue does not match a supported file type 
+2017-04-12 11:07:36.2262|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:07:36.2262|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Queue (MessageHub) 
+2017-04-12 11:07:36.2497|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Queue (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:07:36.2497|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Queue (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:07:36.2613|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Queue' in controller 'Home'. 
+2017-04-12 11:07:36.2613|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Queue' was found. 
+2017-04-12 11:07:36.2733|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Queue.cshtml. 
+2017-04-12 11:07:36.2733|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:07:36.3074|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Queue (MessageHub) in 40.9266ms 
+2017-04-12 11:07:36.3204|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:36.3204|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(c247ab71-4b92-471d-9964-206a1b01590f) 
+2017-04-12 11:07:36.3515|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMBDECYkKrPwMOjnvoPfRWnGWEV7JcrOT2518cOQyL6ORY3ZvYtF4JCASqIrlR7O6yZ0CznSjhFPi9K6OP39J5MObkx834BSKzBdUGuEmLdE04lse0B7yRmBxjjVeFCN9EBinWAA9cHY1YDfk0pHZH5v&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:07:36.3515|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:07:36.3515|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1134.4531ms 101  
+2017-04-12 11:07:36.3515|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 167.7553ms 200 text/html; charset=utf-8 
+2017-04-12 11:07:36.3881|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:36.4212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GQ" disconnecting. 
+2017-04-12 11:07:36.5421|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GQ" sending FIN. 
+2017-04-12 11:07:36.6062|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GQ" sent FIN with status "0". 
+2017-04-12 11:07:36.6794|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:36.7727|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GQ" stopped. 
+2017-04-12 11:07:36.8123|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(c247ab71-4b92-471d-9964-206a1b01590f) 
+2017-04-12 11:07:36.8383|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:07:36.8624|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 421.4377ms 200  
+2017-04-12 11:07:36.8835|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection c247ab71-4b92-471d-9964-206a1b01590f 
+2017-04-12 11:07:36.9326|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:07:36.9808|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:07:36.9808|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:07:37.0069|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(c247ab71-4b92-471d-9964-206a1b01590f) 
+2017-04-12 11:07:37.0280|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:37.0280|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:07:37.0839|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(c247ab71-4b92-471d-9964-206a1b01590f) 
+2017-04-12 11:07:37.0929|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:37.1179|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 357.8297ms 304 text/plain 
+2017-04-12 11:07:37.2112|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (c247ab71-4b92-471d-9964-206a1b01590f) 
+2017-04-12 11:07:37.2262|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 201.1588ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:07:37.2508|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966457183 application/json; charset=UTF-8  
+2017-04-12 11:07:37.2578|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:07:37.2578|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:37.2904|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:37.3145|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GR" started. 
+2017-04-12 11:07:37.3461|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 62.1505ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:37.3656|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMATRvsGLOT9kdrXpYsDDdaDKLVkMsGX7AzDKUhZXBhAWOJvNIP1X5EM%2BuwMl0aMZ7XRvxpg8APkkae0jBdaCooECDX24%2Fh6v6wnQ%2BYzTWqR91BQXJzGeworjbxkFHh8ER78p8%2BSb2%2B8RoKuPabH%2FhEP&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=8   
+2017-04-12 11:07:37.3822|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:07:37.4183|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:37.4553|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection 99c918ab-be8f-4ac5-8a25-e2c890fd3f7f is New. 
+2017-04-12 11:07:37.4779|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMATRvsGLOT9kdrXpYsDDdaDKLVkMsGX7AzDKUhZXBhAWOJvNIP1X5EM%2BuwMl0aMZ7XRvxpg8APkkae0jBdaCooECDX24%2Fh6v6wnQ%2BYzTWqR91BQXJzGeworjbxkFHh8ER78p8%2BSb2%2B8RoKuPabH%2FhEP&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966457458 application/json; charset=UTF-8  
+2017-04-12 11:07:37.4779|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:07:37.4930|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:37.4930|MessageHub.signalr.MessageHub|WARN|连接的对象是匿名者 
+2017-04-12 11:07:37.5110|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:07:37连接了 
+2017-04-12 11:07:37.5110|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:37.5268|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 60.5766ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:38.2304|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Home/Contact   
+2017-04-12 11:07:38.2304|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Home/Contact does not match a supported file type 
+2017-04-12 11:07:38.2304|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:07:38.2465|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Contact (MessageHub) 
+2017-04-12 11:07:38.2465|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Contact (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:07:38.2615|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Contact (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:07:38.2615|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Contact' in controller 'Home'. 
+2017-04-12 11:07:38.2615|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Contact' was found. 
+2017-04-12 11:07:38.2796|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Contact.cshtml. 
+2017-04-12 11:07:38.2796|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:07:38.3388|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Contact (MessageHub) in 38.2828ms 
+2017-04-12 11:07:38.3508|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:38.3508|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(99c918ab-be8f-4ac5-8a25-e2c890fd3f7f) 
+2017-04-12 11:07:38.3708|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMATRvsGLOT9kdrXpYsDDdaDKLVkMsGX7AzDKUhZXBhAWOJvNIP1X5EM%2BuwMl0aMZ7XRvxpg8APkkae0jBdaCooECDX24%2Fh6v6wnQ%2BYzTWqR91BQXJzGeworjbxkFHh8ER78p8%2BSb2%2B8RoKuPabH%2FhEP&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:07:38.3989|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:07:38.3989|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 140.7319ms 200 text/html; charset=utf-8 
+2017-04-12 11:07:38.4688|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1049.7467ms 101  
+2017-04-12 11:07:38.4327|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:38.5621|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GR" disconnecting. 
+2017-04-12 11:07:38.7631|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GR" sending FIN. 
+2017-04-12 11:07:38.7972|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:38.8228|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GR" sent FIN with status "0". 
+2017-04-12 11:07:38.8228|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GR" stopped. 
+2017-04-12 11:07:38.8799|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 507.546ms 200  
+2017-04-12 11:07:38.8820|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(99c918ab-be8f-4ac5-8a25-e2c890fd3f7f) 
+2017-04-12 11:07:38.9266|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|DEBUG|99c918ab-be8f-4ac5-8a25-e2c890fd3f7f is dead 
+2017-04-12 11:07:38.9336|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:07:38.9336|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:07:38.9466|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:07:39.0018|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:39.1632|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection 99c918ab-be8f-4ac5-8a25-e2c890fd3f7f 
+2017-04-12 11:07:39.1788|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:07:39.1788|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:07:39.1788|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(99c918ab-be8f-4ac5-8a25-e2c890fd3f7f) 
+2017-04-12 11:07:39.2143|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:39.2143|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(99c918ab-be8f-4ac5-8a25-e2c890fd3f7f) 
+2017-04-12 11:07:39.2514|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 92.8913ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:07:39.2986|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 369.7526ms 304 text/plain 
+2017-04-12 11:07:39.3542|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966459023 application/json; charset=UTF-8  
+2017-04-12 11:07:39.3542|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (99c918ab-be8f-4ac5-8a25-e2c890fd3f7f) 
+2017-04-12 11:07:39.3542|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:07:39.3778|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:39.3908|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:39.4239|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GS" started. 
+2017-04-12 11:07:39.4239|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 90.3217ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:39.4505|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMCoOSWxXJfoAPr1AWmLfd14u2idD6tx1AlSTQjCN0aAHU%2BvAWdUM1ELKiNlkF8pxWayXE3%2FMcJePccfGn5K1qT%2B8SuCK9uGlDxQmhXVNbjr9W7VjJWeE5p3tNbrHcgO%2B%2Ft%2F8DFe1mW5WuKyu%2Fa79KDU&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=9   
+2017-04-12 11:07:39.4600|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:07:39.4600|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:39.4868|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection 542bcca3-305d-4a24-b5ed-cd9da10c0596 is New. 
+2017-04-12 11:07:39.5028|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMCoOSWxXJfoAPr1AWmLfd14u2idD6tx1AlSTQjCN0aAHU%2BvAWdUM1ELKiNlkF8pxWayXE3%2FMcJePccfGn5K1qT%2B8SuCK9uGlDxQmhXVNbjr9W7VjJWeE5p3tNbrHcgO%2B%2Ft%2F8DFe1mW5WuKyu%2Fa79KDU&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966459491 application/json; charset=UTF-8  
+2017-04-12 11:07:39.5028|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:07:39.5098|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:39.5098|MessageHub.signalr.MessageHub|WARN|连接的对象是匿名者 
+2017-04-12 11:07:39.5249|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:07:39连接了 
+2017-04-12 11:07:39.5249|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:39.5429|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 41.7671ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:41.4278|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(c-3964d2b1-869b-407a-a3bf-948c22701cb4) 
+2017-04-12 11:07:41.4419|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(hc-MessageHub.3964d2b1-869b-407a-a3bf-948c22701cb4) 
+2017-04-12 11:07:42.9672|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" disconnecting. 
+2017-04-12 11:07:42.9923|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" disconnecting. 
+2017-04-12 11:07:42.9672|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" disconnecting. 
+2017-04-12 11:07:43.0164|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" sending FIN. 
+2017-04-12 11:07:43.0259|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" sending FIN. 
+2017-04-12 11:07:43.0259|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" sending FIN. 
+2017-04-12 11:07:43.0259|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" sent FIN with status "0". 
+2017-04-12 11:07:43.0384|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GH" stopped. 
+2017-04-12 11:07:43.0384|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" sent FIN with status "0". 
+2017-04-12 11:07:43.0384|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GL" stopped. 
+2017-04-12 11:07:43.0384|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" sent FIN with status "0". 
+2017-04-12 11:07:43.0545|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GK" stopped. 
+2017-04-12 11:07:43.9075|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|DEBUG|KeepAlive(542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:07:46.4127|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(hc-MessageHub.99c918ab-be8f-4ac5-8a25-e2c890fd3f7f) 
+2017-04-12 11:07:46.4208|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(c-c247ab71-4b92-471d-9964-206a1b01590f) 
+2017-04-12 11:07:46.4298|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(hc-MessageHub.c247ab71-4b92-471d-9964-206a1b01590f) 
+2017-04-12 11:07:46.4298|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(c-99c918ab-be8f-4ac5-8a25-e2c890fd3f7f) 
+2017-04-12 11:07:53.9193|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|DEBUG|KeepAlive(542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:07:54.2349|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GT" started. 
+2017-04-12 11:07:54.2509|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GU" started. 
+2017-04-12 11:07:54.2509|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GV" started. 
+2017-04-12 11:07:54.2690|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/Home/Contact   
+2017-04-12 11:07:54.2840|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /Home/Contact does not match a supported file type 
+2017-04-12 11:07:54.2950|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:07:54.3276|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Contact (MessageHub) 
+2017-04-12 11:07:54.3396|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Contact (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:07:54.3396|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Contact (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:07:54.3396|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Contact' in controller 'Home'. 
+2017-04-12 11:07:54.3517|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Contact' was found. 
+2017-04-12 11:07:54.3517|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Contact.cshtml. 
+2017-04-12 11:07:54.3517|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:07:54.4082|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Contact (MessageHub) in 37.945ms 
+2017-04-12 11:07:54.4082|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:54.4158|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:07:54.4650|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMCoOSWxXJfoAPr1AWmLfd14u2idD6tx1AlSTQjCN0aAHU%2BvAWdUM1ELKiNlkF8pxWayXE3%2FMcJePccfGn5K1qT%2B8SuCK9uGlDxQmhXVNbjr9W7VjJWeE5p3tNbrHcgO%2B%2Ft%2F8DFe1mW5WuKyu%2Fa79KDU&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:07:54.4650|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 14989.1177ms 101  
+2017-04-12 11:07:54.4650|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:07:54.4940|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 218.1802ms 200 text/html; charset=utf-8 
+2017-04-12 11:07:54.5953|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GS" disconnecting. 
+2017-04-12 11:07:54.6174|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GS" sending FIN. 
+2017-04-12 11:07:54.6354|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:54.6354|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GS" sent FIN with status "0". 
+2017-04-12 11:07:54.7743|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GS" stopped. 
+2017-04-12 11:07:54.7743|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:54.8059|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:07:54.8059|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 422.7651ms 200  
+2017-04-12 11:07:54.8375|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:07:54.8375|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection 542bcca3-305d-4a24-b5ed-cd9da10c0596 
+2017-04-12 11:07:54.8535|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:07:54.8846|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:54.8846|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:07:54.9533|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:07:55.0887|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:07:55.0887|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 60.6328ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:07:55.1047|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:07:55.1278|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:07:55.1749|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:07:55.1749|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966474918 application/json; charset=UTF-8  
+2017-04-12 11:07:55.1990|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:55.2235|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:07:55.2501|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 389.1172ms 304 text/plain 
+2017-04-12 11:07:55.2501|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:55.2792|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:55.2882|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 132.4501ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:55.2882|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H0" started. 
+2017-04-12 11:07:55.2882|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMB6QvtHnEjrE4DMiVeJng7ITgzyBGMlEQ77gpSoYlcD5dmT7mOLzBg0Qdw%2FN51eQAIqvLZClWo68QQXsCqTVnSdJVvUIlrC7jg0SfIkOFzzRlHgNH%2FMXWuxNaD81J%2Fx%2FgVF8SzHwFHFW8rHarjg%2By0Y&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=1   
+2017-04-12 11:07:55.3062|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:07:55.3062|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:55.3062|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection 1fe583b8-694a-4de9-9a3d-cc59c9071899 is New. 
+2017-04-12 11:07:55.3268|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMB6QvtHnEjrE4DMiVeJng7ITgzyBGMlEQ77gpSoYlcD5dmT7mOLzBg0Qdw%2FN51eQAIqvLZClWo68QQXsCqTVnSdJVvUIlrC7jg0SfIkOFzzRlHgNH%2FMXWuxNaD81J%2Fx%2FgVF8SzHwFHFW8rHarjg%2By0Y&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966475320 application/json; charset=UTF-8  
+2017-04-12 11:07:55.3268|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:07:55.3268|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:55.3393|MessageHub.signalr.MessageHub|WARN|连接的对象是匿名者 
+2017-04-12 11:07:55.3393|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:07:55连接了 
+2017-04-12 11:07:55.3534|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:55.3704|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 34.8034ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:57.1812|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/   
+2017-04-12 11:07:57.1812|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2017-04-12 11:07:57.1812|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2017-04-12 11:07:57.1969|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action MessageHub.Controllers.HomeController.Index (MessageHub) 
+2017-04-12 11:07:57.1969|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method MessageHub.Controllers.HomeController.Index (MessageHub) with arguments ((null)) - ModelState is Valid 
+2017-04-12 11:07:57.1969|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method MessageHub.Controllers.HomeController.Index (MessageHub), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2017-04-12 11:07:57.2125|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2017-04-12 11:07:57.2125|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2017-04-12 11:07:57.2125|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2017-04-12 11:07:57.2271|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2017-04-12 11:07:57.2792|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action MessageHub.Controllers.HomeController.Index (MessageHub) in 30.1216ms 
+2017-04-12 11:07:57.2792|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(1fe583b8-694a-4de9-9a3d-cc59c9071899) 
+2017-04-12 11:07:57.2792|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:57.3093|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMB6QvtHnEjrE4DMiVeJng7ITgzyBGMlEQ77gpSoYlcD5dmT7mOLzBg0Qdw%2FN51eQAIqvLZClWo68QQXsCqTVnSdJVvUIlrC7jg0SfIkOFzzRlHgNH%2FMXWuxNaD81J%2Fx%2FgVF8SzHwFHFW8rHarjg%2By0Y&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:07:57.3579|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:07:57.3579|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2012.6752ms 101  
+2017-04-12 11:07:57.3669|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:57.4000|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 166.3944ms 200 text/html; charset=utf-8 
+2017-04-12 11:07:57.4321|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H0" disconnecting. 
+2017-04-12 11:07:57.4722|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H0" sending FIN. 
+2017-04-12 11:07:57.5299|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(1fe583b8-694a-4de9-9a3d-cc59c9071899) 
+2017-04-12 11:07:57.5810|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:57.5966|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H0" sent FIN with status "0". 
+2017-04-12 11:07:57.6332|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css.map   
+2017-04-12 11:07:57.6622|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection 1fe583b8-694a-4de9-9a3d-cc59c9071899 
+2017-04-12 11:07:57.6853|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 352.3366ms 200  
+2017-04-12 11:07:57.6853|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H0" stopped. 
+2017-04-12 11:07:57.7374|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /lib/bootstrap/dist/css/bootstrap.css.map was not modified 
+2017-04-12 11:07:57.7485|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/hubs   
+2017-04-12 11:07:57.7770|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.css.map 
+2017-04-12 11:07:57.7770|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/hubs does not match a supported file type 
+2017-04-12 11:07:57.8207|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GI" completed keep alive response. 
+2017-04-12 11:07:57.9214|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(1fe583b8-694a-4de9-9a3d-cc59c9071899) 
+2017-04-12 11:07:57.9410|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 238.179ms 304 text/plain 
+2017-04-12 11:07:57.9445|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:57.9901|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(1fe583b8-694a-4de9-9a3d-cc59c9071899) 
+2017-04-12 11:07:57.9966|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 258.4325ms 200 application/javascript; charset=UTF-8 
+2017-04-12 11:07:58.0443|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (1fe583b8-694a-4de9-9a3d-cc59c9071899) 
+2017-04-12 11:07:58.0443|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/negotiate?clientProtocol=1.5&Type=Broswer&Name=Broswer&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966477852 application/json; charset=UTF-8  
+2017-04-12 11:07:58.0543|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/negotiate does not match a supported file type 
+2017-04-12 11:07:58.0543|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing protect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:58.0543|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:58.0543|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 40.9432ms 200 application/json; charset=UTF-8 
+2017-04-12 11:07:58.0753|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H1" started. 
+2017-04-12 11:07:58.0753|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/connect?transport=webSockets&clientProtocol=1.5&Type=Broswer&Name=Broswer&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAI2sjc%2FMD90BVu4MTYB6Hg5TA5us2kmZzX4bx%2FYepuvZIhdW5DztWqBAZrF4yH1%2BiY6fgaI92jg31%2BnobSfQIHZx8L9qqi8KmKAv0RwES3Zzuv7uXT1jQUBeKOhEWi56prH%2Bmm7vJCFisVabdPl0Md&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&tid=6   
+2017-04-12 11:07:58.0854|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/connect does not match a supported file type 
+2017-04-12 11:07:58.0854|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:58.0854|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Connection 58066c7f-465b-4a95-8094-faae9bc94b17 is New. 
+2017-04-12 11:07:58.1064|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5000/signalr/start?transport=webSockets&clientProtocol=1.5&Type=Broswer&Name=Broswer&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAI2sjc%2FMD90BVu4MTYB6Hg5TA5us2kmZzX4bx%2FYepuvZIhdW5DztWqBAZrF4yH1%2BiY6fgaI92jg31%2BnobSfQIHZx8L9qqi8KmKAv0RwES3Zzuv7uXT1jQUBeKOhEWi56prH%2Bmm7vJCFisVabdPl0Md&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D&_=1491966478099 application/json; charset=UTF-8  
+2017-04-12 11:07:58.1064|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /signalr/start does not match a supported file type 
+2017-04-12 11:07:58.1064|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:07:58.1195|MessageHub.signalr.MessageHub|WARN|连接的对象是浏览器 
+2017-04-12 11:07:58.1195|MessageHub.signalr.MessageHub|WARN|2017/4/12 11:07:58BroswerBroswer连接了 
+2017-04-12 11:07:58.1345|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:07:58.1345|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 36.6044ms 200 application/json; charset=UTF-8 
+2017-04-12 11:08:00.9508|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CloseSocket(58066c7f-465b-4a95-8094-faae9bc94b17) 
+2017-04-12 11:08:00.9809|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 POST http://localhost:5000/signalr/abort?transport=webSockets&clientProtocol=1.5&Type=Broswer&Name=Broswer&connectionToken=CfDJ8IYx%2Bkn31DRPilwZmRYRiMAI2sjc%2FMD90BVu4MTYB6Hg5TA5us2kmZzX4bx%2FYepuvZIhdW5DztWqBAZrF4yH1%2BiY6fgaI92jg31%2BnobSfQIHZx8L9qqi8KmKAv0RwES3Zzuv7uXT1jQUBeKOhEWi56prH%2Bmm7vJCFisVabdPl0Md&connectionData=%5B%7B%22name%22%3A%22messagehub%22%7D%5D application/json; charset=UTF-8 0 
+2017-04-12 11:08:01.0094|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2881.968ms 101  
+2017-04-12 11:08:01.0094|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|POST requests are not supported 
+2017-04-12 11:08:01.0270|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|TRACE|Performing unprotect operation to key {49fa3186-d4f7-4f34-8a5c-1999161188c0} with purposes ('E:\厦门项目\MessageHub\MessageHub', 'SignalR.ConnectionToken'). 
+2017-04-12 11:08:01.0270|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H1" disconnecting. 
+2017-04-12 11:08:01.0992|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89GG" completed keep alive response. 
+2017-04-12 11:08:01.3373|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H1" sending FIN. 
+2017-04-12 11:08:01.3849|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H1" sent FIN with status "0". 
+2017-04-12 11:08:01.4386|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL41A31L89H1" stopped. 
+2017-04-12 11:08:01.5093|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|Abort(58066c7f-465b-4a95-8094-faae9bc94b17) 
+2017-04-12 11:08:01.5303|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 248.7503ms 200  
+2017-04-12 11:08:01.5303|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(hc-MessageHub.542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:08:01.5654|Microsoft.AspNetCore.SignalR.Transports.TransportHeartbeat|INFO|Removing connection 58066c7f-465b-4a95-8094-faae9bc94b17 
+2017-04-12 11:08:01.5654|Microsoft.AspNetCore.SignalR.Messaging.MessageBus|INFO|RemoveTopic(c-542bcca3-305d-4a24-b5ed-cd9da10c0596) 
+2017-04-12 11:08:01.5754|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|End(58066c7f-465b-4a95-8094-faae9bc94b17) 
+2017-04-12 11:08:01.5754|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|DEBUG|DrainWrites(58066c7f-465b-4a95-8094-faae9bc94b17) 
+2017-04-12 11:08:01.5965|Microsoft.AspNetCore.SignalR.Transports.WebSocketTransport|INFO|CompleteRequest (58066c7f-465b-4a95-8094-faae9bc94b17) 

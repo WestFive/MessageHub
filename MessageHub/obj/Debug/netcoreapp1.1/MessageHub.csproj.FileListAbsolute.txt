@@ -1,0 +1,11 @@
+E:\厦门项目\MessageHub\MessageHub\bin\Debug\netcoreapp1.1\MessageHub.deps.json
+E:\厦门项目\MessageHub\MessageHub\bin\Debug\netcoreapp1.1\MessageHub.runtimeconfig.json
+E:\厦门项目\MessageHub\MessageHub\bin\Debug\netcoreapp1.1\MessageHub.runtimeconfig.dev.json
+E:\厦门项目\MessageHub\MessageHub\bin\Debug\netcoreapp1.1\MessageHub.dll
+E:\厦门项目\MessageHub\MessageHub\obj\Debug\netcoreapp1.1\MessageHub.csprojResolveAssemblyReference.cache
+E:\厦门项目\MessageHub\MessageHub\obj\Debug\netcoreapp1.1\MessageHub.AssemblyInfo.cs
+E:\厦门项目\MessageHub\MessageHub\bin\Debug\netcoreapp1.1\MessageHub.pdb
+E:\厦门项目\MessageHub\MessageHub\bin\Debug\netcoreapp1.1\Data.dll
+E:\厦门项目\MessageHub\MessageHub\bin\Debug\netcoreapp1.1\Data.pdb
+E:\厦门项目\MessageHub\MessageHub\obj\Debug\netcoreapp1.1\MessageHub.dll
+E:\厦门项目\MessageHub\MessageHub\obj\Debug\netcoreapp1.1\MessageHub.pdb

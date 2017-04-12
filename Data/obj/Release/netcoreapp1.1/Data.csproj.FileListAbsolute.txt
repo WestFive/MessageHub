@@ -1,0 +1,6 @@
+E:\厦门项目\MessageHub\Data\bin\Release\netcoreapp1.1\Data.deps.json
+E:\厦门项目\MessageHub\Data\bin\Release\netcoreapp1.1\Data.dll
+E:\厦门项目\MessageHub\Data\bin\Release\netcoreapp1.1\Data.pdb
+E:\厦门项目\MessageHub\Data\obj\Release\netcoreapp1.1\Data.AssemblyInfo.cs
+E:\厦门项目\MessageHub\Data\obj\Release\netcoreapp1.1\Data.dll
+E:\厦门项目\MessageHub\Data\obj\Release\netcoreapp1.1\Data.pdb
